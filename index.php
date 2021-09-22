@@ -102,7 +102,27 @@ $faqs = [
     </main>
 
     <!-- footer -->
-    <footer></footer>
+    <footer>
+        <div class="my-container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col">
+                    <ul class="d-flex align-items-center m-0 ps-0">
+                        <li><a href="#">Google</a></li>
+                        <li><a href="#">Tutto su Google</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Termini</a></li>
+                    </ul>
+                </div>
+                <div class="col text-end">
+                    <i class="fas fa-language"></i>
+                    <select name="lang">
+                        <option selected value="italiano">Italiano</option>
+                        <option value="inglese">Inglese</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
